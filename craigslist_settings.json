@@ -1,5 +1,5 @@
 {
-  "clFeeds" : [
+  "clFeeds": [
     "http://boston.craigslist.org",
     "http://westernmass.craigslist.org",
     "http://newlondon.craigslist.org",
@@ -9,7 +9,7 @@
     "http://albany.craigslist.org",
     "http://providence.craigslist.org"
   ],
-  "searchString" : "impreza",
+  "searchString": "impreza",
   "category": "cto",
   "priceMin": "9999",
   "priceMax": "13001",
