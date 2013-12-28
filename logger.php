@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   // open json file and rewrite w/ new info
   $fp = fopen($file, 'w');
-  fwrite($fp, json_encode(array_values($json)));
+  fwrite($fp, json_encode(array_values($json), JSON_PRETTY_PRINT));
   fclose($fp);
 
   $response[status] = 'success';
